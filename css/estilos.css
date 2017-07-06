@@ -1,14 +1,18 @@
 .barra-superior{
-  min-height: 4rem;
+
 }
 
 .fila-superior{
-  margin-bottom: 0;
+
 }
 
 .barra-botones{
-  min-height: 4rem;
 
+}
+
+.cuerpo{
+  background-image: url(../img/ernieger.jpg);
+  background-attachment: fixed;
 }
 
 div[class*="columna"]{
@@ -17,52 +21,18 @@ div[class*="columna"]{
 div[class*="bloque"]{
   height: 25rem;
 }
-.columna-chat, .columna-news{
-  padding: 0 !important;
-}
-.contenedor-write-publicacion{
-  min-height: 7rem;
-}
-.contenedor-publicacion{
-  min-height: 17rem;
-}
+
 .logo{
   width: 300px;
   float: center;
   margin-left: 7rem;
   margin-top: 4rem;
 }
-.contenedor-noticias{
-  margin-top: 1rem;
-  min-height: 50rem;
-  padding: 0.5rem;
-}
+
 .responsive-img{
-  border: 0.6rem solid #e8eaf6;
-  border-radius: 5px;
+
 }
 
-.boton-busqueda{
-  margin-top: 1rem;
-  float: left;
-  max-height: 4rem;
-}
-
-.icono-busqueda{
-  float: right;
-}
-
-.boton-correo{
-  margin-top: 1rem;
-}
-
-.boton-enviar{
-  float: right;
-}
-
-.trio-botones-entrada{
-  float: left;
-}
 
 span{
   font-color: #e8eaf6;
@@ -78,13 +48,6 @@ span{
 }
 .icon-block .material-icons {
 	font-size: inherit;
-}
-
-pre{
-      padding: 16px 20px 0px;
-    background: #eee;
-    border: 1px solid #ddd;
-    border-radius: 4px;
 }
 
 .info{
