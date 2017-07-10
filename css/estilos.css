@@ -1,18 +1,26 @@
-.barra-superior{
-
+.travel-body {
+  background: url(../img/ernieger-blue.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
-.fila-superior{
+.barra-color{
+  background-color: orange;
+  height: 60vh;
+}
+
+.barra-superior{
+  text-align: center;
 
 }
 
 .barra-botones{
-
-}
-
-.cuerpo{
-  background-image: url(../img/ernieger.jpg);
-  background-attachment: fixed;
+margin-top: 10vh;
+text-align: center;
 }
 
 div[class*="columna"]{
@@ -24,7 +32,7 @@ div[class*="bloque"]{
 
 .logo{
   width: 300px;
-  float: center;
+  float: right;
   margin-left: 7rem;
   margin-top: 4rem;
 }
@@ -33,6 +41,13 @@ div[class*="bloque"]{
 
 }
 
+.noticia{
+  background-color: white;
+}
+
+.imagen-noticia{
+  margin-top: 5vh;
+}
 
 span{
   font-color: #e8eaf6;
@@ -40,7 +55,8 @@ span{
 }
 
 .guideline{
-  text-align: right;
+  text-align: left;
+  margin-top: 15vh;
 }
 
 .icon-block {
@@ -53,4 +69,22 @@ span{
 .info{
   font-size: 1.3rem;
   text-align: center;
+}
+
+.comentar{
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.container{
+  width: 100%;
+}
+
+.card-action{
+  text-align: right;
+}
+
+.enrique{
+  margin-top: 3vh;
+
 }
